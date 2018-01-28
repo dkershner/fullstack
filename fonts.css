@@ -1,0 +1,37 @@
+.font_lora {
+  font-family: 'Lora', serif;
+}
+
+.font_cormorant_garamond {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.font_quattrocento {
+  font-family: 'Quattrocento', serif;
+}
+
+.font_raleway {
+  font-family: 'Raleway', sans-serif;
+}
+
+.font_titillium_web {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.font_dosis {
+  font-family: 'Dosis', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  line-height: 1.6em;
+  text-shadow: 1px 1px #08053e;
+}
+
+h2 {
+  line-height: 1.4em;
+}
+
+h3 {
+  font-size: 1em;
+}
