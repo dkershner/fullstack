@@ -1,0 +1,20 @@
+/*
+  Green color scheme:
+  #2A7548   Base green for backgrounds
+  #7AB793   Very light green for visited links
+  #4C996B   Light green for text
+  #0F5C2E   Dark green for links
+  #003D19   Very dark green for headings
+*/
+
+h1, h2 {
+  color: #003D19;
+}
+
+p {
+  color: #4C996B;
+}
+
+a {
+  color: #0F5C2E;
+}
