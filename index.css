@@ -7,14 +7,86 @@
   #003D19   Very dark green for headings
 */
 
-h1, h2 {
-  color: #003D19;
+* {
+  box-sizing: border-box;
 }
 
-p {
-  color: #4C996B;
+h2 {
+  color: white;
 }
 
-a {
-  color: #0F5C2E;
+p, a {
+  color: #80C18E;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #003D19;
+}
+
+section {
+  margin: .5%;
+  padding: 5px;
+}
+
+#title {
+  text-align: center;
+}
+
+.about_me {
+  width: 49%;
+}
+
+#picture {
+  background-image: url("myPic.jpg");
+  width: 49%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right top;
+  margin: .5%;
+}
+
+.sample_coursework {
+  width: 100%;
+  border: 1px solid black;
+  background-color: #00400E;
+}
+
+.project_1, .project_2, .project_3 {
+  width: 100%;
+  border: 1px solid black;
+  background-color: #0F5C2E;
+}
+
+@media (min-width: 992px) {
+  .project_1, .project_2, .project_3 {
+    width: 32.33%;
+  }
+  .project_2 > h2 {
+    text-align: center;
+  }
+  .project_3 > h2 {
+    text-align: right;
+  }
+  .container {
+    width: 80%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .project_1, .project_2 {
+    width: 49%;
+  }
+  .project_2 > h2 {
+    text-align: right;
+  }
+  .project_3 > h2 {
+    text-align: center;
+  }
+  .container {
+    width: 90%;
+  }
 }
