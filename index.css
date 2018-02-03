@@ -41,7 +41,7 @@ section {
 }
 
 #picture {
-  background-image: url("myPic.jpg");
+  background-image: url("myPic.JPG");
   width: 49%;
   background-repeat: no-repeat;
   background-size: contain;
