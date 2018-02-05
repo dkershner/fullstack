@@ -30,6 +30,7 @@ p, a {
 section {
   margin: .5%;
   padding: 5px;
+  border: 1px solid black;
 }
 
 #title {
@@ -51,13 +52,11 @@ section {
 
 .sample_coursework {
   width: 100%;
-  border: 1px solid black;
   background-color: #00400E;
 }
 
 .project_1, .project_2, .project_3 {
   width: 100%;
-  border: 1px solid black;
   background-color: #0F5C2E;
 }
 
