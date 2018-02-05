@@ -38,12 +38,12 @@ section {
 }
 
 .about_me {
-  width: 49%;
+  width: 69%;
 }
 
 #picture {
   background-image: url("myPic.JPG");
-  width: 49%;
+  width: 29%;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right top;
@@ -72,6 +72,12 @@ section {
   }
   .container {
     width: 80%;
+  }
+  .about_me {
+    width: 49%;
+  }
+  #picture {
+    width: 49%;
   }
 }
 
